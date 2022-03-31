@@ -1,0 +1,17 @@
+{
+    "name": "sys4soft/phpstore",
+    "description": "Loja Online em PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joao Ribeiro",
+            "email": "sys4soft@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/"
+        }
+    }
+}
