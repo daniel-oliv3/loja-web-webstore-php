@@ -9,6 +9,12 @@
 	<link rel="shortcut icon" href="img/php.ico"/>
 </head>
 <body>
+
+	<?php
+	
+		echo "teste";
+
+	?>
 	
 	<script src="js/script.js"></script>
 </body>

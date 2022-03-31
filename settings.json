@@ -2,4 +2,4 @@
 "workbench.iconTheme": "newUntitledFile",
 "files.autoSave": "onFocusChange",
 "editor.fontSize": 16,
-"workbench.startupEditor": "C:\\xampp\\php\\"
+"workbench.startupEditor": "C:\\xampp\\php\\php.exe"
