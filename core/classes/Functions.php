@@ -5,7 +5,7 @@ namespace core\classes;
 class Functions{
 
     public function teste(){
-        echo 'olá';
+        echo 'Sapup3 ';
     }
 
 }

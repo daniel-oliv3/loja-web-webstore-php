@@ -11,10 +11,11 @@
 <body>
 
 	<?php
+
 		//Abrir a Sessão
 		session_start();
 
-		use core\classes\Database;
+		
 
 		//Carregar o Config
 		require_once('../config.php');
@@ -22,18 +23,7 @@
 		require_once('../vendor/autoload.php');
 
 
-		$a = new Database();
-
-		echo "Olá, Mundo!";
-
-		/*
-		Carregar o config
-		Carregar classes
-		Carregar o sistema de rotas
-			- mostrar loja
-			- mostrar carinho
-			- mostrar o backoffice, etc... 
-		*/
+		
 
 	?>
 	
