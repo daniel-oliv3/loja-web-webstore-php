@@ -12,19 +12,27 @@
 
 	<?php
 
-		//Abrir a Sessão
-		session_start();
+		
 
-		//Carregar o Config
-		require_once('../config.php');
+	use core\classes\Database;
 
-		//Carregar todas as classes do projeto
-		require_once('../vendor/autoload.php');
+	//Abrir a Sessão
+	session_start();
+
+	//Carregar o Config
+	require_once('../config.php');
+
+	//Carregar todas as classes do projeto
+	require_once('../vendor/autoload.php');
 
 
-		echo 'Sapup3';
+	$bd = new Database();
+	$clientes = $bd->select("SELECT * FROM clientes");
+	echo '<prev>';
 
-	?>
+	echo 'Sapup3';
+
+?>
 	
 	<script src="js/script.js"></script>
 </body>
