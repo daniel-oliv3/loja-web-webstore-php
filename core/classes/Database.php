@@ -9,6 +9,7 @@ class Database{
 
     private $ligacao;
 
+    // -----------
     private function ligar(){
         //Conectando a base de dados
         $this->ligacao = new PDO(
