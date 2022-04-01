@@ -1,17 +1,22 @@
 {
-    "name": "sys4soft/phpstore",
+    "name": "daniel_oliveira/loja-web-webstore-php",
     "description": "Loja Online em PHP",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "DanielOliveira\\LojaWebWebstorePhp\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "Joao Ribeiro",
-            "email": "sys4soft@gmail.com"
+            "name": "Daniel Oliveira",
+            "email": "danielsapup3@gmail.com"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "core\\" : "core/"
+            "core\\": "core/"
         }
     }
 }

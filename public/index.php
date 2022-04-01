@@ -14,12 +14,17 @@
 		//Abrir a Sessão
 		session_start();
 
+		use core\classes\Database;
+
 		//Carregar o Config
 		require_once('../config.php');
+		//Carregar todas as classes do projeto
+		require_once('../vendor/autoload.php');
 
 
+		$a = new Database();
 
-
+		echo "Olá, Mundo!";
 
 		/*
 		Carregar o config

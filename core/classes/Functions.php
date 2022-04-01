@@ -9,3 +9,5 @@ class Functions{
     }
 
 }
+
+//Funções gerais
